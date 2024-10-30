@@ -125,7 +125,7 @@ export default function HolidayForm() {
           </form>
         </div>
 
-     
+        {/* Holiday List Table */}
         <div className="bg-gray-50 p-6 rounded-lg shadow">
           <h2 className="text-xl font-semibold mb-4">Holiday List</h2>
           <Table>
