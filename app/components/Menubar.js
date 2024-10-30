@@ -74,6 +74,10 @@ const Menubar = () => {
                     <Link href="/settings/arbitrator">Arbitrator</Link>
                   </li>
                   <li className="p-2 hover:bg-gray-200 flex items-center">
+                    <HiOutlineStar className="mr-2" />
+                    <Link href="/settings/templaterepository">Template Repository</Link>
+                  </li>
+                  <li className="p-2 hover:bg-gray-200 flex items-center">
                     <HiOutlineLogout className="mr-2" />
                     <button onClick={handleLogout} className="w-full text-left">
                       Logout
@@ -153,6 +157,10 @@ const Menubar = () => {
                   <li className="p-2 hover:bg-gray-200 flex items-center">
                     <HiOutlineStar className="mr-2" />
                     <Link href="/settings/arbitrator">Arbitrator</Link>
+                  </li>
+                  <li className="p-2 hover:bg-gray-200 flex items-center">
+                    <HiOutlineStar className="mr-2" />
+                    <Link href="/settings/templaterepository">Template Repository</Link>
                   </li>
               <li className="p-2 hover:bg-gray-100 flex items-center">
                 <HiOutlineLogout className="mr-2" />
